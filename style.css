@@ -90,7 +90,18 @@ h2 {
 
 .main-nav a {
     color: white;
+    position: relative;
     text-decoration: none;
+}
+
+.main-nav a::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: -20px;
+    right: -20px;
+    bottom: -20px;
+    left: -20px;
 }
 
 .main-nav a:hover {
@@ -541,6 +552,7 @@ h2 {
 
 .order-form .spam {
     margin-bottom: 23px;
+    cursor: pointer;
 }
 
 .order-form-group input[type="checkbox"] {
