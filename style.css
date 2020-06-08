@@ -94,6 +94,9 @@ h2 {
     text-decoration: none;
 }
 
+
+/*увеличение области клика ссылки*/
+
 .main-nav a::before {
     position: absolute;
     content: "";
