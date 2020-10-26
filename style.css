@@ -129,7 +129,8 @@ h2 {
 }
 
 .slogan span {
-	font-size: 40px;
+	font-size : 40px;
+	font-style: italic;
 }
 
 .promo-product {
