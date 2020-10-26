@@ -248,9 +248,10 @@ h2 {
 	margin-left: 21px;
 }
 
-.features {
-	background-color: #ffcb78;
-	padding         : 79px 0 90px;
+.product-item_price {
+	color      : #000000;
+	font       : var(--component-font);
+	margin-left: 21px;
 }
 
 .features-list {
@@ -395,6 +396,16 @@ h2 {
 	margin-top: 18px;
 }
 
+.review-item_source {
+	position: absolute;
+	bottom  : 11px;
+	right   : 0;
+}
+
+.reviews_btn-next {
+	margin-top: 18px;
+}
+
 .btn-next {
 	background-color: #ede5d8;
 	border-color    : #a5a097;
@@ -504,6 +515,7 @@ h2 {
 	text-transform: uppercase;
 	line-height   : 20px;
 	font-weight   : bold;
+	margin-bottom : 10px;
 }
 
 .order_form_left-part,
@@ -556,8 +568,8 @@ textarea {
 }
 
 .order_form_spam {
-	display: block;
-	margin : 5px 0 40px;
+	display: inline-block;
+	margin : 5px 0 30px;
 	cursor : pointer;
 }
 
